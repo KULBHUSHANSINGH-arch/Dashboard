@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6fb;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary: #1a73e8;
+  --primary-dark: #1557b0;
+  --sidebar-bg: #1e2a3b;
+  --header-bg: #ffffff;
+  --white: #ffffff;
+  --light-bg: #f4f6fb;
+  --border: #e4e8f0;
+  --text-dark: #1e2a3b;
+  --text-muted: #7a8499;
+  --text-light: #b0b8cc;
+  --green: #28a745;
+  --orange: #fd7e14;
+  --red: #dc3545;
+  --yellow: #ffc107;
+  --purple: #6f42c1;
+  --teal: #20c997;
+  --badge-daily: #fff3cd;
+  --badge-daily-text: #e67e00;
+  --badge-weekly: #e8f4fd;
+  --badge-weekly-text: #1a73e8;
+  --badge-monthly: #e8f8f0;
+  --badge-monthly-text: #28a745;
+  --badge-yearly: #fde8e8;
+  --badge-yearly-text: #dc3545;
+  --submitted-bg: #e8f4fd;
+  --submitted-text: #1a73e8;
+  --inreview-bg: #e8f8f0;
+  --inreview-text: #28a745;
+  --card-shadow: 0 2px 12px rgba(30, 42, 59, 0.08);
+}

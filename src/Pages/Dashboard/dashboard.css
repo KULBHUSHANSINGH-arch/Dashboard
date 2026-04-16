@@ -1,0 +1,28 @@
+.dashboardRoot {
+    display: flex;
+    min-height: 100vh;
+    background: #f4f6fb;
+}
+
+.dashboardMain {
+    flex: 1;
+    margin-left: 60px;
+    /* same as sidebar width */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dashboardContent {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Mobile - sidebar goes to bottom */
+@media (max-width: 768px) {
+    .dashboardMain {
+        margin-left: 0;
+        margin-bottom: 56px;
+        /* same as mobile sidebar height */
+    }
+}
